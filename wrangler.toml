@@ -1,10 +1,15 @@
 name = "serverless_workbox"
 type = "javascript"
 zone_id = ""
-account_id = ""
+account_id = "374819b41d65235a74957a6fd7f39e24"
 route = ""
 workers_dev = true
 compatibility_date = "2021-11-15"
+
+kv_namespaces = [
+    { binding = "COINS", preview_id = "", id = "f5b2bf715f094a149b9453375b58f924" }
+]
+
 
 [build]
 command = "npm install && npm run build"
