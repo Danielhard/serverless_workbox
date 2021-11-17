@@ -3,7 +3,7 @@
     "outDir": "./dist",
     "module": "commonjs",
     "target": "esnext",
-    "lib": ["esnext"],
+    "lib": ["esnext", "DOM"],
     "alwaysStrict": true,
     "strict": true,
     "preserveConstEnums": true,
@@ -16,6 +16,6 @@
       "@types/service-worker-mock"
     ]
   },
-  "include": ["src","index.d.ts"],
+  "include": ["src","index.d.ts "],
   "exclude": ["node_modules", "dist", "test"]
 }
