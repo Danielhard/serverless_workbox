@@ -1,5 +1,6 @@
 
 import { Router } from 'itty-router'
+import { getData } from './mock'
 const router =  Router();
 
 addEventListener('fetch', (event: any) => {
@@ -7,5 +8,5 @@ addEventListener('fetch', (event: any) => {
 })
 
 addEventListener('scheduled', (event: any) => {
-  event.waitUntil()
+  event.waitUntil(getData())
 })
