@@ -1,7 +1,7 @@
 
-import { Router } from 'itty-router'
+import router from './routes'
 import { getData } from './mock'
-const router =  Router();
+
 
 addEventListener('fetch', (event: any) => {
   event.respondWith(router.handle((event.request)))

@@ -1,5 +1,5 @@
 declare global {
-    namespace COINS {
+    namespace INDEX {
          function put(key:string ,value:string) : void
     }
 }

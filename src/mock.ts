@@ -1,6 +1,10 @@
 
   import { IDatas, ElementType } from "./type";
   
+
+  declare global {
+    const COINS: KVNamespace;
+  }
   const init = {
     method: 'Get',
     headers: {
