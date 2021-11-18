@@ -21,7 +21,7 @@ jobs:
           key: v2-dependencies-{{ checksum "package.json" }}
       - run: npm install -D @cloudflare/wrangler --registry.npmjs.org
       # ksgcLbaW4SVNXtGtudlBOZ2EfMJz80TMlqpNi934
-      - run: echo ksgcLbaW4SVNXtGtudlBOZ2EfMJz80TMlqpNi934 | npx wrangler config 
+      - run: echo 6ePmJxQH7ORhwHoGTp1dSEW4WHxZjjrmnPeJhTcS | npx wrangler config 
       - run: npx wrangler publish
       # - run: CF_EMAIL=$CF_EMAIL CF_API_KEY=$CF_API_KEY wrangler publish
       # - persist_to_workspace:
